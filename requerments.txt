@@ -1,0 +1,2 @@
+python-telegram-bot==10.0.2
+keras==2.1.4
