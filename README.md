@@ -16,7 +16,7 @@ To start use this callback you need fo register bot in telegram and get your `te
 
 ### Example
 
-```
+```python
 from .callbacks import TelegramCallback
 
 # load data, define and compile model
@@ -24,8 +24,8 @@ from .callbacks import TelegramCallback
 
 # create callback
 config = {
-    'token': '556983321:AAHO-bSWaIqcvHL91Xw12X18OWczFIpY1s0',   # invalid token, paste here your own token
-    'telegram_id': 123456789,
+    'token': '556983321:AAHO-bSWaIqcvHL91Xw12X18OWczFIpY1s0',   # paste your bot token
+    'telegram_id': 123456789,                                   # paste your telegram_id
 }
 
 tg_callback = TelegramCallback(config)
