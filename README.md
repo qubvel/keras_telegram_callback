@@ -11,6 +11,9 @@ To start use this callback you need fo register bot in telegram and get your `te
  - Follow `BotFather` instructions to register your bot in a few steps and get `token`.
 
 #### Step 2. Get your ID.
+ - Find `@my_id_bot` bot in Telegram and get your `telegram_id`. If bot is not working get `telegram_id` manually (step 2a).  
+
+#### Step 2a. Get your ID (optional).
  - Find your bot in telegram and send message 'hello!'
  - Paste in your browser `api.telegram.org/bot<token>/getUpdates` (use token you get in previous step), if you did everything correctly you will recive a JSON where you can find your `telegram_id`.
 
